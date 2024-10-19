@@ -1,6 +1,6 @@
 const { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } = skyway_room;
 
-const url = 'marchan1823'; //サーバー側と接続するためのws/// ws to connect with the server side
+const url = 'wss;;//marchan1823.tcexposer.com'; //サーバー側と接続するためのws/// ws to connect with the server side
 const slider = {};
 let Members = 0;
 const userLang = navigator.language || navigator.userLanguage;
